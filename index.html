@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hex Color Func</title>
+</head>
+<body>
+  <div class="container">
+    <h2>HEX Color Functions</h2>
+    <div class="input">
+      <div>
+        <label for="hexInput">Enter HEX color (#EEff00)</label>
+        <input type="text" id="hexInput" placeholder="# Value"/>
+      </div>
+      <div>
+        <input type="radio" id="radio1" name="func" checked></input>
+        <label for="radio1">Lighten</label>&nbsp;
+        <input type="radio" id="radio2" name="func" value="darken"></input>
+        <label for="radio2">Darken</label>
+      </div>
+      <div>
+        <label for="amount">Enter Value to convert (0-100%) </label>
+        <input type="text" id="amount" placeholder="% Value"></input>
+      </div>  
+      <button type="button" id="calcBtn">Calculate</button>
+    </div>
+    <div class="output"></div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
+
